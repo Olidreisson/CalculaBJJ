@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Calculadora de Faixa Preta</title>
+ <link rel="stylesheet" href="bjj2{.css">
+</head>
+<body>
+ <header>
+ <div id="title-container">
+ <h1>Calculadora de Faixa Preta</h1>
+ <div id="belt-design"></div>
+ </div>
+ <button id="info-button">i</button>
+ <div id="info-box">
+ <p>O tempo médio para chegar à faixa preta no Jiu-Jitsu, partindo da faixa branca, geralmente é de 10 a 15 anos,
+dependendo de vários fatores:</p>
+ <p><strong>1. Tempo Mínimo Requerido:</strong></p>
+ <p>Branca -> Azul: ~1-2 anos.<br>Azul -> Roxa: ~2 anos.<br>Roxa -> Marrom: ~2 anos.<br>Marrom -> Preta: ~1-2
+anos.</p>
+ <p><strong>2. Fatores que Impactam o Tempo:</strong> Frequência, qualidade do treino, competição, professor e
+dedicação.</p>
+ <p><strong>3. Realidade Prática:</strong> Pode levar de 10 a 15 anos, dependendo da regularidade e do
+desempenho.</p>
+ </div>
+ </header>
+ <main>
+ <section id="calculator-section">
+ <form id="black-belt-form">
+ <label for="start-date">Data de início no Jiu-Jitsu (DD/MM/AAAA):</label>
+ <input type="text" id="start-date" placeholder="Exemplo: 01/01/2023">
+ <label for="training-frequency">Treinos por semana:</label>
+ <input type="number" id="training-frequency" min="1" max="7" value="3">
+ <label for="hours-per-training">Horas por treino:</label>
+ <input type="number" id="hours-per-training" min="0.5" max="5" step="0.5" value="1.5">
+ <button type="button" id="calculate-button">Calcular</button>
+ </form>
+ <div id="result">
+ <h3>Resultado:</h3>
+ <p id="time-to-black-belt">Tempo até a faixa preta: --</p>
+ <p id="hours-logged">Horas acumuladas: --</p>
+ <div id="progress-bar-container">
+ <div id="progress-bar"></div>
+ </div>
+ </div>
+ </section>
+ </main>
+ <script src="bjj3.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+
+
