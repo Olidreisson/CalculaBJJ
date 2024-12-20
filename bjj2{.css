@@ -1,0 +1,119 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+   }
+   header {
+    position: relative;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+   }
+   #title-container {
+    position: relative;
+   }
+   #title-container h1 {
+    margin: 0;
+    font-size: 24px;
+   }
+   #belt-design {
+    width: 120px;
+    height: 20px;
+    background: red;
+    margin: 10px auto;
+    position: relative;
+   }
+   #belt-design::before, #belt-design::after {
+    content: '';
+    width: 20px;
+    height: 100%;
+    background: white;
+    position: absolute;
+    top: 0;
+   }
+   #belt-design::before {
+    left: 20px;
+   }
+   #belt-design::after {
+    right: 20px;
+   }
+   #info-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+   }
+   #info-box {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: white;
+    color: #333;
+    padding: 15px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+   }
+   main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+   }
+   form label {
+    display: block;
+    margin: 10px 0 5px;
+   }
+   form input, form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   form button {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+   }
+   form button:hover {
+    background: #b22222;
+   }
+   #progress-bar-container {
+    width: 100%;
+    height: 20px;
+    background: #ddd;
+    border-radius: 10px;
+    margin-top: 10px;
+   }
+   #progress-bar {
+    height: 100%;
+    background: red;
+    width: 0;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out;
+   }
+   
+  
+  
+  
+  
+  
+  
+  
